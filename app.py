@@ -5,8 +5,8 @@ from pathlib import Path
 
 # Project paths
 BASE_DIR = Path(__file__).resolve().parent
-MODEL_PATH = BASE_DIR / "models" / "churn_model.joblib"
-FEATURE_PATH = BASE_DIR / "models" / "feature_names.joblib"
+MODEL_PATH = BASE_DIR / "churn_model.joblib"
+FEATURE_PATH = BASE_DIR / "feature_names.joblib"
 
 # Page configuration
 st.set_page_config(
